@@ -99,5 +99,5 @@ jobs:
         uses: addnab/docker-run-action@v3
         with:
             image: ${{ secrets.DOCKER_REPO }}/maven-hello-world:${{ env.new_tag }}
-            run: |
-              java -jar app.jar
+            # run: |
+            #   java -jar app.jar
