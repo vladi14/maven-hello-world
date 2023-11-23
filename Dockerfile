@@ -6,3 +6,4 @@ RUN ls -l
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
 # CMD ["java", "-jar", "app.jar"]
+
